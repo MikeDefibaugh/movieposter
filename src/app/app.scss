@@ -15,7 +15,7 @@
 .poster-page {
     //    background-image: url("../assets/images/lego_batman.jpg");
     background-position: top;
-    background-size: contain;
+    background-size: auto 93%;
     background-repeat: no-repeat;
     background-color: black;
 }
@@ -26,6 +26,10 @@
 
 .scroll-content {
     overflow-y: auto;
+}
+
+.modal-wrapper {
+    height: 460px;
 }
 
 ion-modal {
@@ -55,7 +59,7 @@ ion-modal {
     background-repeat: no-repeat;
 }
 
-@media (min-width: 1200px) and (max-width: 1200px) and (min-height: 1920px) and (max-height: 1920px) {
+@media (min-width: 1080px) and (min-height: 1920px) {
     html {
         zoom: 1.75;
     }

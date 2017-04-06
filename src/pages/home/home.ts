@@ -72,9 +72,7 @@ export class HomePage {
           {
             "timestamp":  new Date().toISOString(),
             "values": {
-              "cityName": "Atlanta",
-              "state": "Georgia",
-              "zip": 30303
+              "movieName": this.selectedMovie['title']
             }
           }
         ).subscribe((result) => {
